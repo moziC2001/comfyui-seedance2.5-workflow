@@ -1,0 +1,22 @@
+# Secrets and local configuration
+.env
+.env.*
+*.key
+
+# ComfyUI inputs/outputs and generated media
+input/
+output/
+*.mp4
+*.mov
+*.webm
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Scratch files used while preparing this repository
+work/
+outputs/
+
